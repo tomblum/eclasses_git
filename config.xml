@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<audioplay>
+    <config>
+	<!-- background music -->
+	<player playerid="0">
+	    <!-- set player's background color -->
+	    <backgroundColor>0xffffff</backgroundColor>
+	
+	    <!-- music file -->
+	    <musicfile>audio_background/music.mp3</musicfile>
+	
+	    <!-- how many times music will be played (0 - unlimited) -->
+	    <repeatTimes>10</repeatTimes>
+	
+	    <!-- should music starts automatically -->
+	    <autostart>yes</autostart>
+	    
+	    <!-- button directory -->
+	    <buttondir>audio_background/buttons</buttondir>
+	    
+	    <!-- player mode - playstop or playpause -->
+	    <mode>playpause</mode>
+	    
+	    <!-- send stop command to other players ? -->
+	    <sendstop>yes</sendstop>
+	    
+	    <!-- listen stop command from other players ? -->
+	    <listenstop>yes</listenstop>
+	    
+	    <!-- track id - must be unique -->
+	    <trackid>0</trackid>
+	    
+	    <!-- which player (trackid) will be started after this player will end playing -->
+	    <nexttrack>0</nexttrack>
+	    
+	    <!-- use background color specified in 'backgroundColor' tag - no transparency -->
+	    <usebgcolor>no</usebgcolor>
+	    
+	    <!-- player alpha fade in duration -->
+	    <fadeindur>1000</fadeindur>
+	    
+	    <!-- volume 0-100 -->
+	    <mastervol>60</mastervol>
+
+	    <!-- you could specify URL of external scripts that will be used when play/pause/stop action is invoked (default: none) -->
+            <playscriptfile></playscriptfile>
+            <pausescriptfile></pausescriptfile>
+            <stopscriptfile></stopscriptfile>
+
+	    <!-- autostart delay in ms (default 500)-->
+	    <autostartdelay>250</autostartdelay>
+	    
+	    <!-- external interface feature (player could be controlled by JS play(), stop(), pause() methods) - default: no -->
+	    <einterface>yes</einterface>
+
+	    <!-- inititial buffering - music download starts immediately after player loads -->
+            <initbuf>yes</initbuf>
+	    
+	</player>
+	<!-- sound effects -->
+	<!--  Drys slide -->
+	<player playerid="1">
+	    
+	    <backgroundColor>0xffffff</backgroundColor>
+	
+	    <musicfile>audio_effects/Drys.mp3</musicfile>
+	
+	    <repeatTimes>1</repeatTimes>
+	
+	    <autostart>yes</autostart>
+	    
+	   <buttondir>audio_effects/buttons</buttondir>
+	    
+	    <mode>playpause</mode>
+	    
+	    <sendstop>no</sendstop>
+	    
+	    <listenstop>yes</listenstop>
+	    
+	    <trackid>1</trackid>
+	    
+	    <nexttrack>1</nexttrack>
+	    
+	    <usebgcolor>yes</usebgcolor>
+	    
+	    <fadeindur>1000</fadeindur>
+	    
+	    <mastervol>90</mastervol>
+
+            <playscriptfile></playscriptfile>
+            <pausescriptfile></pausescriptfile>
+            <stopscriptfile></stopscriptfile>
+
+	    <autostartdelay>250</autostartdelay>
+	
+	    <einterface>yes</einterface>
+
+            <initbuf>yes</initbuf>
+	    
+	</player>
+	<!--  Wets slide -->
+	<player playerid="2">
+	
+	    <backgroundColor>0xffffff</backgroundColor>
+	
+	    <musicfile>audio_effects/Wets.mp3</musicfile>
+	
+	    <repeatTimes>1</repeatTimes>
+	
+	    <autostart>yes</autostart>
+	    
+	    <buttondir>audio_effects/buttons</buttondir>
+	    
+	    <mode>playpause</mode>
+	    
+	    <sendstop>no</sendstop>
+	    
+	    <listenstop>yes</listenstop>
+	    
+	    <trackid>2</trackid>
+	    
+	    <nexttrack>2</nexttrack>
+	
+	    <usebgcolor>no</usebgcolor>
+	    
+	    <fadeindur>1000</fadeindur>
+	
+	    <mastervol>90</mastervol>
+
+            <playscriptfile></playscriptfile>
+            <pausescriptfile></pausescriptfile>
+            <stopscriptfile></stopscriptfile>
+
+	   <autostartdelay>250</autostartdelay>
+	    
+	    <einterface>yes</einterface>
+
+            <initbuf>yes</initbuf>
+	    
+	</player>
+	<!--  Rumrunners slide -->
+	<player playerid="3">
+	 
+	    <backgroundColor>0xffffff</backgroundColor>
+	
+	    <musicfile>audio_effects/rumruners.mp3</musicfile>
+	
+	    <repeatTimes>1</repeatTimes>
+	
+	    <autostart>yes</autostart>
+	    
+	    <buttondir>audio_effects/buttons</buttondir>
+	    
+	    <mode>playpause</mode>
+	    
+	    <sendstop>no</sendstop>
+	    
+	     <listenstop>yes</listenstop>
+	    
+	    <trackid>3</trackid>
+	    
+	    <nexttrack>3</nexttrack>
+	    
+	    <usebgcolor>yes</usebgcolor>
+	    
+	    <fadeindur>1000</fadeindur>
+	    
+	    <mastervol>90</mastervol>
+
+            <playscriptfile></playscriptfile>
+            <pausescriptfile></pausescriptfile>
+            <stopscriptfile></stopscriptfile>
+
+	    <autostartdelay>250</autostartdelay>
+	    
+	    <einterface>yes</einterface>
+
+            <initbuf>yes</initbuf>
+	    
+	</player>
+	<!--  Gangsters slide -->
+	<player playerid="4">
+	  
+	    <backgroundColor>0xffffff</backgroundColor>
+	
+	    <musicfile>audio_effects/TommyGunBurst.mp3</musicfile>
+	
+	    <repeatTimes>1</repeatTimes>
+	
+	    <autostart>yes</autostart>
+	    
+	     <buttondir>audio_effects/buttons</buttondir>
+	    
+	     <mode>playpause</mode>
+	    
+	    <sendstop>no</sendstop>
+	    
+	     <listenstop>yes</listenstop>
+	    
+	    <trackid>4</trackid>
+	    
+	    <nexttrack>4</nexttrack>
+	    
+	    <usebgcolor>yes</usebgcolor>
+	    
+	    <fadeindur>1000</fadeindur>
+	    
+	    <mastervol>90</mastervol>
+
+            <playscriptfile></playscriptfile>
+            <pausescriptfile></pausescriptfile>
+            <stopscriptfile></stopscriptfile>
+
+	    <autostartdelay>250</autostartdelay>
+	
+	    <einterface>yes</einterface>
+
+            <initbuf>yes</initbuf>
+	    
+	</player>
+	<!-- Lawmen slide -->
+	<player playerid="5">
+	
+	    <backgroundColor>0xffffff</backgroundColor>
+	
+	    <musicfile>audio_effects/lawmen.mp3</musicfile>
+	
+	    <repeatTimes>1</repeatTimes>
+	
+	    <autostart>yes</autostart>
+	    
+	   <buttondir>audio_effects/buttons</buttondir>
+	    
+	    <mode>playpause</mode>
+	
+	    <sendstop>no</sendstop>
+	
+	     <listenstop>yes</listenstop>
+	
+	    <trackid>5</trackid>
+	
+	    <nexttrack>5</nexttrack>
+	    
+	    <usebgcolor>yes</usebgcolor>
+	    
+	    <fadeindur>1000</fadeindur>
+	    
+	    <mastervol>90</mastervol>
+
+            <playscriptfile></playscriptfile>
+            <pausescriptfile></pausescriptfile>
+            <stopscriptfile></stopscriptfile>
+
+	    <autostartdelay>250</autostartdelay>
+	    
+	    <einterface>yes</einterface>
+
+            <initbuf>yes</initbuf>
+	    
+	</player>
+    </config>
+</audioplay>
+
