@@ -1,0 +1,7 @@
+*.zip
+!images.zip
+template.txt
+*.log
+mockup.png
+assets/videos/
+assets/photoshop/
