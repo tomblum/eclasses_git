@@ -5,6 +5,7 @@
 	<player playerid="0">
 	    <!-- set player's background color -->
 	    <backgroundColor>0xffffff</backgroundColor>
+		
 	
 	    <!-- music file -->
 	    <musicfile>audio_background/music.mp3</musicfile>
